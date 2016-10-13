@@ -11,6 +11,23 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+        $seeders = collect([
+            UsersTableSeeder::class,
+            CountriesTableSeeder::class,
+            ProvincesTableSeeder::class,
+            CitiesTableSeeder::class,
+            OrganizationsTableSeeder::class,
+            OccupationsTableSeeder::class,
+            CategorySkillSeeder::class,
+            ProjectsTableSeeder::class,
+            SkillsTableSeeder::class,
+            OccupationsTableSeeder::class,
+            EducationsTableSeeder::class,
+            CertificationsTableSeeder::class
+        ]);
+
+        $seeders->each(function (string $seederName) {
+            $this->call($seederName);
+        });
     }
 }
