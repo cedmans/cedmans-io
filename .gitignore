@@ -12,7 +12,6 @@ _ide_helper.php
 _ide_helper_models.php
 
 # Compiled assets
-/public/css/*.css
-/public/css/*.css.map
-/public/js/*.js
-/public/js/*.js.map
+/public/css
+/public/js
+/public/build
