@@ -10,7 +10,7 @@
         <title>Cedmans.IO</title>
     </head>
     <body>
-        <div id="app">
+        <div id="app" v-cloak>
             <app></app>
         </div>
 
