@@ -11,7 +11,7 @@
     </head>
     <body>
         <div id="app">
-            <example></example>
+            <app></app>
         </div>
 
         <script type="text/javascript" src="{{ elixir('js/app.js') }}"></script>
