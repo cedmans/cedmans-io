@@ -8,7 +8,7 @@
 </script>
 <style lang="sass" rel="stylesheet/scss">
     .hero {
-        background: url('/images/desk-hero.jpg');
+        background: url('/images/desk-hero-small.jpg');
         background-size: cover;
         height: 100vh;
         -webkit-filter: blur(5px);
