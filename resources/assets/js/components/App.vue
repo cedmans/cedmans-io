@@ -4,8 +4,8 @@
         </div>
         <div class="row intro">
             <div class="small-centered medium-uncentered medium-6 large-7 columns">
-                <h1>Yo Dawg</h1>
-                <p>Here I am!</p>
+                <h1>Cedric Wienold</h1>
+                <p>Engineering, Architecture, and Artistry in Software</p>
             </div>
         </div>
     </section>
@@ -63,8 +63,8 @@
         }
         h1 {
             color: #fff;
-            font-size: 1.5rem;
-            line-height: 1.5em;
+            font-size: 3.5rem;
+            line-height: 1.0em;
             letter-spacing: -0.025em;
             font-weight: 300;
             text-align: center;
