@@ -1,6 +1,6 @@
 <template>
     <section class="hero">
-
+        <img src="/images/desk-hero-small.jpg" />
     </section>
 </template>
 <script>
@@ -8,16 +8,25 @@
 </script>
 <style lang="sass" rel="stylesheet/scss">
     .hero {
-        background: url('/images/desk-hero-small.jpg');
-        background-size: cover;
+        overflow: hidden;
         height: 100vh;
-        -webkit-filter: blur(5px);
-        -moz-filter: blur(5px);
-        -o-filter: blur(5px);
-        -ms-filter: blur(5px);
-        filter: blur(5px);
 
-        &:before {
+        img {
+            height: 100v;
+            -webkit-filter: blur(5px);
+            -moz-filter: blur(5px);
+            -o-filter: blur(5px);
+            -ms-filter: blur(5px);
+            filter: blur(5px);
+            margin: -5px -10px -10px -5px;
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+        &:after {
             content: '';
             position: absolute;
             top: 0;
