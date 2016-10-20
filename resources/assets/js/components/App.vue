@@ -3,9 +3,12 @@
         <div class="hero-image">
         </div>
         <div class="row intro">
-            <div class="small-centered medium-uncentered medium-6 large-7 columns">
+            <div class="medium-10 large-10 columns">
                 <h1>Cedric Wienold</h1>
                 <p>Engineering, Architecture, and Artistry in Software</p>
+            </div>
+            <div class="medium-2 large-2 columns">
+                <img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=250%C3%97250&w=250&h=250" />
             </div>
         </div>
     </section>
@@ -17,13 +20,14 @@
 
 <style lang="sass" rel="stylesheet/scss">
     .hero {
-        overflow: hidden;
         height: 100vh;
+        overflow: hidden;
+        position: relative;
 
         .hero-image {
             background-image: url('/images/desk-hero-small.jpg');
             height: 100vh;
-            width: 100%;
+            width: 100vw;
             -webkit-filter: blur(5px);
             -moz-filter: blur(5px);
             -o-filter: blur(5px);
@@ -63,7 +67,7 @@
         }
         h1 {
             color: #fff;
-            font-size: 3.5rem;
+            font-size: 2.5rem;
             line-height: 1.0em;
             letter-spacing: -0.025em;
             font-weight: 300;
