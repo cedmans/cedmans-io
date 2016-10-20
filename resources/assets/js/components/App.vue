@@ -1,18 +1,21 @@
 <template>
     <section class="hero">
-        <img src="/images/desk-hero-small.jpg" />
+        <div class="hero-image"></div>
     </section>
 </template>
+
 <script>
     export default {}
 </script>
+
 <style lang="sass" rel="stylesheet/scss">
     .hero {
         overflow: hidden;
         height: 100vh;
 
-        img {
-            height: 100v;
+        .hero-image {
+            background-image: url('/images/desk-hero-small.jpg');
+            height: 100vh;
             -webkit-filter: blur(5px);
             -moz-filter: blur(5px);
             -o-filter: blur(5px);
@@ -33,7 +36,7 @@
             right: 0;
             bottom: 0;
             left: 0;
-            background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+            background-image: linear-gradient(to bottom right, #004250, #04004d);
             opacity: .8;
         }
     }
