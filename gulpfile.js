@@ -14,11 +14,14 @@ require('laravel-elixir-vue-2');
  */
 
 elixir(mix => {
-    mix.sass('app.scss')
-       .webpack('app.js')
-       .version(['css/app.css', 'js/app.js'])
-       .browserSync({
-           proxy: 'localhost:8000'
-       })
+    mix
+        .sass('app.scss', null, null, {
+            includePaths: ['node_modules/foundation-sites/scss']
+        })
+        .webpack('app.js')
+        .version(['css/app.css', 'js/app.js'])
+        .browserSync({
+            proxy: 'localhost:8000'
+        })
     ;
 });
