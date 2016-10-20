@@ -50,5 +50,31 @@
                 opacity: .8;
             }
         }
+
+        .intro {
+            padding: 3rem;
+            position: relative;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        h1 {
+            color: #fff;
+            font-size: 1.5rem;
+            line-height: 1.5em;
+            letter-spacing: -0.025em;
+            font-weight: 300;
+            text-align: center;
+        }
+        p {
+            color: #fff;
+            line-height: 1.75em;
+            font-weight: 200;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
     }
 </style>
