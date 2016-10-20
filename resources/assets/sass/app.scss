@@ -23,6 +23,7 @@
 
   .hero-image {
     background-image: url('/images/desk-hero-small.jpg');
+    background-size: cover;
     height: 100vh;
     width: 100vw;
     -webkit-filter: blur(5px);
@@ -63,10 +64,10 @@
     transform: translateY(-50%);
   }
   h1 {
+    padding-top: 1rem;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.0em;
-    letter-spacing: -0.025em;
     font-weight: 300;
     text-align: center;
   }
@@ -96,7 +97,7 @@
     }
 
     h1 {
-      padding-top: 4.5rem;
+      padding-top: 6.5rem;
       text-align: right;
       font-size: 2.5rem;
     }
