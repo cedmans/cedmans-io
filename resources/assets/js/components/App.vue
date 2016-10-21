@@ -11,7 +11,7 @@
         },
         data() {
             return {
-                user: null
+                user: new User()
             }
         },
         methods: {

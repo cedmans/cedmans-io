@@ -6,7 +6,7 @@
                 <div class="face-image"></div>
             </div>
             <div class="medium-7 large-5 large-offset-1 columns">
-                <h1>Cedric Wienold</h1>
+                <h1>{{ user.name }}</h1>
                 <p>Engineering, Architecture, and Artistry in Software</p>
             </div>
             <div class="show-for-medium medium-5 large-2 columns end">
