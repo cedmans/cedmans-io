@@ -1,8 +1,10 @@
 <template>
-    <hero-section></hero-section>
+    <hero-section :user="user"></hero-section>
 </template>
 
 <script>
+    import User from '../view-models/User';
+
     export default {
         components: {
             'hero-section': require('./Hero.vue')
@@ -15,7 +17,10 @@
         methods: {
             getUser() {
                 this.$http.get('/api/users/1').then(
-                    (data) => { this.user = data.body; },
+                    (data) => {
+                        let userData = data.body;
+                        this.user = new User(userData.name, userData.email);
+                    },
                     (error) => { console.error(error) }
                 )
             }

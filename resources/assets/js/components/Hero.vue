@@ -17,5 +17,9 @@
 </template>
 
 <script>
-    export default {}
+    import User from '../view-models/User';
+
+    export default {
+        props: ['user']
+    }
 </script>
