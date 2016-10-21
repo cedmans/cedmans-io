@@ -8,3 +8,9 @@ button.round, .button.round {
   -moz-border-radius: 1000px;
   border-radius: 1000px;
 }
+.button.hollow.white {
+  border: 1px solid #fefefe;
+  color: #fefefe; }
+.button.hollow.white:hover, .button.hollow.white:focus {
+  border-color: #aaaaaa;
+  color: #aaaaaa; }
