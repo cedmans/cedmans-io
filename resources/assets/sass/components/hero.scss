@@ -37,14 +37,8 @@
 
   .intro {
     padding: 3rem;
-    position: relative;
-    top: 40%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
   }
+
   h1 {
     font-family: $title-font;
     padding-top: 1rem;
@@ -81,6 +75,9 @@
   }
 
   @include breakpoint(medium large xlarge) {
+    .intro {
+      margin-top: 5rem;
+    }
     .face-image {
       width: 18em;
       height: 18em;
@@ -98,11 +95,7 @@
     }
 
     .hero-buttons {
-      margin: 2rem auto;
-
-      .button-group a {
-        margin: 0 0.15rem;
-      }
+      top: 5rem;
     }
   }
 }

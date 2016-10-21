@@ -17,13 +17,13 @@
             <div class="columns">
                 <div class="button-group stacked-for-small hide-for-medium">
                     <a href="#" class="button hollow white round">My Mission</a>
-                    <a href="#" class="button hollow white round">Resume</a>
+                    <a href="#" class="button hollow white round">Musings</a>
                     <a href="#" class="button hollow white round">LinkedIn</a>
                     <a href="#" class="button hollow white round">Github</a>
                 </div>
                 <div class="button-group expanded show-for-medium">
                     <a href="#" class="button hollow white round">My Mission</a>
-                    <a href="#" class="button hollow white round">Resume</a>
+                    <a href="#" class="button hollow white round">Musings</a>
                     <a href="#" class="button hollow white round">LinkedIn</a>
                     <a href="#" class="button hollow white round">Github</a>
                 </div>
