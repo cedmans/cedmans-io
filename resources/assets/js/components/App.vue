@@ -7,7 +7,7 @@
 
     export default {
         components: {
-            'hero-section': require('./Hero.vue')
+            'hero-section': require('./HeroNew.vue')
         },
         data() {
             return {
