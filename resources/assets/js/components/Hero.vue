@@ -2,26 +2,17 @@
     <section class="hero">
         <div class="hero-image"></div>
         <div class="row intro">
-            <div class="columns hide-for-medium">
-                <div class="face-image"></div>
-            </div>
-            <div class="medium-7 large-5 large-offset-1 columns">
+            <div class="columns small-centered user-image"></div>
+        </div>
+        <div class="row motto">
+            <div class="columns small-centered">
                 <h1>{{ user.name }}</h1>
                 <p>Engineering, Architecture, and Artistry in Software</p>
             </div>
-            <div class="show-for-medium medium-5 large-2 columns end">
-                <div class="face-image"></div>
-            </div>
         </div>
         <div class="row hero-buttons">
-            <div class="columns">
-                <div class="button-group stacked-for-small hide-for-medium">
-                    <a href="#" class="button hollow white round">My Mission</a>
-                    <a href="#" class="button hollow white round">Musings</a>
-                    <a href="#" class="button hollow white round">LinkedIn</a>
-                    <a href="#" class="button hollow white round">Github</a>
-                </div>
-                <div class="button-group expanded show-for-medium">
+            <div class="columns small-centered">
+                <div class="button-group large stacked">
                     <a href="#" class="button hollow white round">My Mission</a>
                     <a href="#" class="button hollow white round">Musings</a>
                     <a href="#" class="button hollow white round">LinkedIn</a>
@@ -33,8 +24,6 @@
 </template>
 
 <script>
-    import User from '../view-models/User';
-
     export default {
         props: ['user']
     }

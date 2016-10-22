@@ -1,13 +1,14 @@
 <template>
-    <hero-section :user="user"></hero-section>
+    <hero-component :user="user"></hero-component>
 </template>
 
 <script>
     import User from '../view-models/User';
 
+    var HeroComponent = require('./Hero.vue');
     export default {
         components: {
-            'hero-section': require('./HeroNew.vue')
+            'hero-component': HeroComponent
         },
         data() {
             return {
