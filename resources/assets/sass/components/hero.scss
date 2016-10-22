@@ -48,6 +48,8 @@
   .user-image {
     background: url('/images/me-cropped.jpg');
     background-size: cover;
+    max-height: 9rem;
+    max-width: 9rem;
     height: 9rem;
     width: 9rem;
     border-radius: 50%;
