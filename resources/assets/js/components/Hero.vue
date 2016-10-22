@@ -7,7 +7,7 @@
         <div class="row motto">
             <div class="columns small-centered">
                 <h1>{{ user.name }}</h1>
-                <p>Engineering, Architecture, and Artistry in Software</p>
+                <p>{{ user.motto }}</p>
             </div>
         </div>
         <div class="row hero-buttons">

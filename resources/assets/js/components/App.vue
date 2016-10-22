@@ -20,7 +20,7 @@
                 this.$http.get('/api/users/1').then(
                     (data) => {
                         let userData = data.body;
-                        this.user = new User(userData.name, userData.email);
+                        this.user = new User(userData.name, userData.email, userData.motto);
                     },
                     (error) => { console.error(error) }
                 )

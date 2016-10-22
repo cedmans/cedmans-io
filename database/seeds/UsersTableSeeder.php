@@ -16,7 +16,8 @@ class UsersTableSeeder extends Seeder
             'name' => 'Cedric Wienold',
             'email' => 'cwienold@gmail.com',
             'password' => '$2y$10$0drZF2uhcK33K./CqZvzKu8r4DH8IFnPk3HIYl/lBlOwg7z9y7U0K',
-            'created_at' => '1985-10-05 00:00:00'
+            'motto' => 'Engineering, Architecture, and Artistry in Software',
+            'created_at' => '1985-10-05 00:00:00',
         ]);
     }
 }
