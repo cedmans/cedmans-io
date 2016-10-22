@@ -5,8 +5,10 @@
             <div class="columns small-centered user-image"></div>
         </div>
         <div class="row motto">
-            <h1>{{ user.name }}</h1>
-            <p>Engineering, Architecture, and Artistry in Software</p>
+            <div class="columns small-centered">
+                <h1>{{ user.name }}</h1>
+                <p>Engineering, Architecture, and Artistry in Software</p>
+            </div>
         </div>
         <div class="row hero-buttons">
             <div class="columns">

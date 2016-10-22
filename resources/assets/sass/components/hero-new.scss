@@ -42,7 +42,10 @@
   .motto {
     margin-left: 3rem;
     margin-right: 3rem;
-    padding-bottom: 2rem;
+
+    p {
+      margin-top: 1rem;
+    }
   }
 
   .user-image {
