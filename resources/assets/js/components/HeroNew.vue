@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="row hero-buttons">
-            <div class="columns">
+            <div class="columns small-centered">
                 <div class="button-group large stacked">
                     <a href="#" class="button hollow white round">My Mission</a>
                     <a href="#" class="button hollow white round">Musings</a>
