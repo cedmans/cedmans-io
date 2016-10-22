@@ -36,7 +36,13 @@
   }
 
   .intro {
-    padding-top: 3rem;
+    padding-top: 2rem;
+  }
+
+  .motto {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-bottom: 2rem;
   }
 
   .user-image {
@@ -57,8 +63,14 @@
   }
   p {
     color: #fff;
-    line-height: 1.75em;
+    line-height: 1.5em;
     font-weight: 200;
     text-align: center;
+  }
+
+  .hero-buttons {
+    a {
+      margin: 0.25rem auto;
+    }
   }
 }
