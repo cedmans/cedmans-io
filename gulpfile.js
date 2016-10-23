@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const elixir = require('laravel-elixir');
 
 require('laravel-elixir-vue-2');
@@ -21,7 +23,7 @@ elixir(mix => {
         .webpack('app.js')
         .version(['css/app.css', 'js/app.js'])
         .browserSync({
-            proxy: 'localhost:8000'
+            proxy: process.env.GULP_BROWSERSYNC_PROXY
         })
     ;
 });
