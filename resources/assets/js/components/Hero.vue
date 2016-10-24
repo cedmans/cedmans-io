@@ -2,12 +2,16 @@
     <section class="hero">
         <div class="hero-image"></div>
         <div class="row">
-            <div class="intro columns small-centered user-image"></div>
-            <div class="motto columns small-centered">
-                <h1>{{ user.name }}</h1>
-                <p>{{ user.motto }}</p>
+            <div class="columns landscape medium-5">
+                <div class="row">
+                    <div class="intro columns small-centered user-image"></div>
+                    <div class="motto columns small-centered">
+                        <h1>{{ user.name }}</h1>
+                        <p>{{ user.motto }}</p>
+                    </div>
+                </div>
             </div>
-            <div class="hero-buttons columns small-centered">
+            <div class="hero-buttons columns medium-7">
                 <div class="button-group large stacked">
                     <a href="#" class="button hollow white round">My Mission</a>
                     <a href="#" class="button hollow white round">Musings</a>

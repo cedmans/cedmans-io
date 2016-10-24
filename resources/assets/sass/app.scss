@@ -11,8 +11,8 @@
 
 // Foundation
 @import "node_modules/foundation-sites/scss/settings/_settings.scss";
-@import "node_modules/foundation-sites/assets/foundation";
 @import "foundation-overrides";
+@import "node_modules/foundation-sites/assets/foundation";
 
 // Component Styles
 @import "components/hero";
