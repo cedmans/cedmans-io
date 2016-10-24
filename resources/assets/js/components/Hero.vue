@@ -1,17 +1,13 @@
 <template>
     <section class="hero">
         <div class="hero-image"></div>
-        <div class="row intro">
-            <div class="columns small-centered user-image"></div>
-        </div>
-        <div class="row motto">
-            <div class="columns small-centered">
+        <div class="row">
+            <div class="intro columns small-centered user-image"></div>
+            <div class="motto columns small-centered">
                 <h1>{{ user.name }}</h1>
                 <p>{{ user.motto }}</p>
             </div>
-        </div>
-        <div class="row hero-buttons">
-            <div class="columns small-centered">
+            <div class="hero-buttons columns small-centered">
                 <div class="button-group large stacked">
                     <a href="#" class="button hollow white round">My Mission</a>
                     <a href="#" class="button hollow white round">Musings</a>
