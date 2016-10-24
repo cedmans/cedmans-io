@@ -3,7 +3,7 @@
         <div class="hero-image"></div>
         <div class="row">
             <div class="columns landscape medium-5">
-                <div class="row">
+                <div class="row table-centered">
                     <div class="intro columns small-centered user-image"></div>
                     <div class="motto columns small-centered">
                         <h1>{{ user.name }}</h1>
@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="hero-buttons columns medium-7">
-                <div class="button-group large stacked">
+                <div class="button-group table-centered large stacked">
                     <a href="#" class="button hollow white round">My Mission</a>
                     <a href="#" class="button hollow white round">Musings</a>
                     <a href="#" class="button hollow white round">LinkedIn</a>

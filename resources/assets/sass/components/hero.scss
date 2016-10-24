@@ -76,4 +76,18 @@
       margin: 0.25rem auto;
     }
   }
+
+  @include breakpoint(small-only) {
+    .motto {
+      padding: 0;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .table-centered {
+      display: table-cell;
+      vertical-align: middle;
+      height: 100vh;
+    }
+  }
 }
