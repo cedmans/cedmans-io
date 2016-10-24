@@ -1,5 +1,5 @@
 @extends('layouts/master')
 
 @section('content')
-    <app></app>
+    <welcome></welcome>
 @endsection
