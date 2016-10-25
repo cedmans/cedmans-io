@@ -10,7 +10,7 @@
         <title>@yield('title', 'Cedmans.IO')</title>
     </head>
     <body>
-        <div id="app" v-cloak>
+        <div id="app" v-cloak class="no-js">
             @yield('content')
         </div>
 

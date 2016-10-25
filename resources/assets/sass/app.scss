@@ -17,6 +17,6 @@
 // Component Styles
 @import "components/hero";
 
-[v-cloak] {
+[v-cloak], .no-js {
   display: none;
 }
