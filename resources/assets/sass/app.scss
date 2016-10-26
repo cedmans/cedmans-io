@@ -25,6 +25,10 @@ h1 {
   font-family: $title-font;
 }
 
+.title-bar {
+  margin-bottom: 0.75rem;
+}
+
 [v-cloak], .no-js {
   display: none;
 }
