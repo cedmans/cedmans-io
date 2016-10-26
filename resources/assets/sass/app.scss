@@ -17,6 +17,13 @@
 // Component Styles
 @import "components/hero";
 
+* {
+  font-family: $body-font;
+}
+h1 {
+  font-family: $title-font;
+}
+
 [v-cloak], .no-js {
   display: none;
 }
