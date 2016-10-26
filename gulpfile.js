@@ -21,7 +21,7 @@ elixir(mix => {
         .webpack('app.js')
         .version(['css/app.css', 'js/app.js'])
         .browserSync({
-            proxy: 'cedmans.dev'
+            proxy: 'localhost:8000'
         })
     ;
 });
