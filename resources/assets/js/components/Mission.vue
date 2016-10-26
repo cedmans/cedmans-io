@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="row columns">
+        <div class="row columns small-centered">
             <h1>My Mission</h1>
             <h2>To Create Reliable, Maintainable, Testable Software</h2>
         </div>
