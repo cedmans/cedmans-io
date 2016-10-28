@@ -10,7 +10,7 @@
                 developers and clients.
             </p>
             <p>
-                Through constant study and staying on the edge of new practices and tech, I
+                Through constant study of time-tested practices and staying on the edge of new tech, I
                 bring my employer and clients the best results with maximum reliability.
             </p>
         </div>
