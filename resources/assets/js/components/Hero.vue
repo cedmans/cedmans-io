@@ -14,7 +14,7 @@
             <div class="hero-buttons columns medium-7">
                 <div class="button-group table-centered large stacked">
                     <a href="/mission" class="button hollow white round">My Mission</a>
-                    <a href="/files/resume.pdf" class="button hollow white round">Resume</a>
+                    <a href="/musings" class="button hollow white round">Musings</a>
                     <a href="/contact" class="button hollow white round">Contact</a>
                 </div>
             </div>
