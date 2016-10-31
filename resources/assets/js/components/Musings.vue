@@ -3,13 +3,12 @@
         <div class="row columns">
             <h1>Musings</h1>
         </div>
-        <div class="row columns">
-            <p>Future Home of My Articles</p>
-        </div>
+        <musing-list :musings="musings"></musing-list>
     </div>
 </template>
 
 <script>
+    import MusingList from '../components/MusingList.vue';
     import Musing from '../view-models/Musing';
 
     export default {
@@ -17,6 +16,10 @@
             return {
                 musings: []
             }
+        },
+
+        components: {
+            MusingList
         },
 
         methods: {
