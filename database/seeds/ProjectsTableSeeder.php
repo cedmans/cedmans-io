@@ -14,6 +14,12 @@ class ProjectsTableSeeder extends Seeder
         $projects = collect([
             [
                 'user_id' => 1,
+                'name' => 'Hookly',
+                'description' => 'Web server listening for Github/Gitlab web hooks and dispatching appropriate actions',
+                'date' => '2014-01-01'
+            ],
+            [
+                'user_id' => 1,
                 'name' => '(unnamed)',
                 'description' => 'Web site to generate custom flashcards for the Japanese Language Proficiency Test',
                 'date' => '2014-01-01'
