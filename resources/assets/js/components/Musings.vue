@@ -3,12 +3,45 @@
         <div class="row columns">
             <h1>Musings</h1>
         </div>
-        <div class="row columns">
-            <p>Future Home of My Articles</p>
-        </div>
+        <musing-list :musings="musings"></musing-list>
     </div>
 </template>
 
 <script>
-    export default {}
+    import MusingList from '../components/MusingList.vue';
+    import Musing from '../view-models/Musing';
+
+    export default {
+        data: () => {
+            return {
+                musings: []
+            }
+        },
+
+        components: {
+            MusingList
+        },
+
+        methods: {
+            getMusings() {
+                this.$http.get('/api/musings').then(
+                    (data) => {
+                        let musings = [];
+                        let musingListData = data.body;
+                        for (let i = 0; i < musingListData.length; i++) {
+                            let musingData = musingListData[i];
+                            let musing = new Musing(musingData.title, musingData.content, musingData.created_at, musingData.updated_at);
+                            musings.push(musing);
+                        }
+
+                        this.musings = musings;
+                    }
+                )
+            }
+        },
+
+        created() {
+            this.getMusings();
+        }
+    }
 </script>

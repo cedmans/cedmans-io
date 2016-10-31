@@ -17,7 +17,7 @@ use Illuminate\Http\Request;
 //    return $request->user();
 //})->middleware('auth:api');
 
-$nonViewRoutes = ['store', 'destroy', 'update'];
+$nonViewRoutes = ['store', 'destroy', 'update', 'create', 'edit'];
 $viewRoutesOnlySetting = ['except' => $nonViewRoutes];
 
 Route::get('/', 'IndexController@index');
@@ -35,3 +35,5 @@ Route::resource('duties', 'DutyController', $viewRoutesOnlySetting);
 Route::resource('education', 'EducationController', $viewRoutesOnlySetting);
 Route::resource('certifications', 'CertificationController', $viewRoutesOnlySetting);
 Route::resource('projects', 'ProjectController', $viewRoutesOnlySetting);
+
+Route::resource('musings', 'MusingController', $viewRoutesOnlySetting);

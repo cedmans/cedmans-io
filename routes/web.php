@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('mission', function () {
     return view('mission');
 })->name('mission');
+
+Route::get('musings', function () {
+    return view('musings');
+})->name('musings');
