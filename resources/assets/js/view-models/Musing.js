@@ -15,7 +15,7 @@ class Musing {
     }
 
     isUpdated() {
-        return this.date.isSame(this.updated);
+        return !this.date.isSame(this.updated);
     }
 }
 

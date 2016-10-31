@@ -1,15 +1,19 @@
 <template>
     <div>
-        <div class="row columns" v-for="musing in musings">
-            <em>{{musing.date}}</em>
-            <h2>{{musing.title}}</h2>
-            <div>{{musing.content}}</div>
+        <div v-for="musing in musings">
+            <musing-list-item :musing="musing"></musing-list-item>
         </div>
     </div>
 </template>
 
 <script>
+    import MusingListItem from '../components/MusingListItem.vue';
+
     export default {
-        props: ['musings']
+        props: ['musings'],
+
+        components: {
+            MusingListItem
+        }
     }
 </script>
