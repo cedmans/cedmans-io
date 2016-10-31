@@ -30,7 +30,7 @@
                         let musingListData = data.body;
                         for (let i = 0; i < musingListData.length; i++) {
                             let musingData = musingListData[i];
-                            let musing = new Musing(musingData.title, musingData.content);
+                            let musing = new Musing(musingData.title, musingData.content, musingData.created_at, musingData.updated_at);
                             musings.push(musing);
                         }
 
