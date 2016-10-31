@@ -16,6 +16,7 @@ require('./bootstrap');
 Vue.component('top-bar', require('./components/TopBar.vue'));
 Vue.component('welcome', require('./components/Welcome.vue'));
 Vue.component('mission', require('./components/Mission.vue'));
+Vue.component('musings', require('./components/Musings.vue'));
 const app = new Vue({
     el: '#app'
 });
